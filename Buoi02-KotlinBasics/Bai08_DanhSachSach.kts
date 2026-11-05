@@ -1,2 +1,10 @@
-#!/usr/bin/env kotlin
-
+// Họ tên: Bùi Trần Gia Huy - MSSV: 25810024
+val danhSachSach = mutableListOf("Toán Cao Cấp", "Lập trình Kotlin", "Cấu trúc dữ liệu", "Lịch sử Đảng", "Kỹ thuật phần mềm")
+println("Danh sách ban đầu:")
+println(danhSachSach)
+danhSachSach.add("Trí tuệ nhân tạo")
+danhSachSach.add("An toàn thông tin")
+danhSachSach.remove("Lịch sử Đảng")
+danhSachSach.sort()
+println("\nDanh sách sau khi thêm, xóa và sắp xếp:")
+println(danhSachSach)
